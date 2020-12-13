@@ -1,0 +1,28 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+    html {
+        background: url(https://mota.ru/upload/resize/1920/1080/upload/wallpapers/2017/07/15/13/24/53282/15001141805969ed0404e0a2.48555090-271.jpg);
+        font-family: "Roboto Light", Arial;
+    }
+
+    body {
+        background-color: rgba(253,214,149, 0.7);
+        margin: 20px auto;
+        width: 50%;
+        padding: 20px;
+    }
+
+    p {
+        font-family: "Roboto Light", Arial;
+        font-size: 16px;
+        color: #313129;
+    }
+
+    a {
+        color: #313129;
+    }
+
+    h1, h2 {
+        text-align: left;
+    }
+</style>
