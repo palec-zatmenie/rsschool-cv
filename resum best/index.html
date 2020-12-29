@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>практическое задание</title>
+  <link rel="stylesheet" href="css\main.css">
+  <nav class="nav-menu">
+    <ul class="nav-text">
+      <li><a href="#contact">Contact info</a></li>
+      <li><a href="#summaru">Summaru</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#Code">Code Examples</a></li>
+      <li><a href="#Education">Education</a></li>
+      <li><a href="#English">English</a></li>
+    </ul>
+  </nav>
+</head>
+<body>
+  <header class="zagolovog-wripper">
+    <div class="img-wrapper">
+      <img
+        src="https://sun9-39.userapi.com/impg/c858336/v858336058/1a28eb/EE9yI6X0wDg.jpg?size=809x1080&quality=96&sign=96435f4cec0a44cd7f548a0070a15a8f"
+        alt="моё фото">
+    </div>
+    <div class="text-wripper">
+      <h1> Hello!</h1>
+      <p> I am Andrey Karpus, 24 years old. Beginning frontend developers. </p>
+      <p> I live in Homel, Belarus. I like to travel in my free time </p>
+      <P>Always open to new acquaintances, I like to work in a team.</P>
+      <p>I think that the main thing in life is self-development and an active life position.</p>
+    </div>
+  </header>
+  <div class="centr-flex">
+    <div class="summaru-wripper">
+      <h2 id="summaru">Summary:</h2>
+      <p>Your company has a good training base and an excellent reputation.
+        That's why I chose your company out of a number of different companies when the question arose about learning IT
+        skills and further work in this sphere.
+        If you can improve your skills and with a good team, this is what you need for a novice specialist who is
+        looking for
+        a long-term job.</p>
+    </div>
+    <div class="skill-wrapper">
+      <h2 id="skills">Skills</h2>
+      <p>I was trained in the Upskill program, studied JavaScript, CSS, HTML and common computer science base.</p>
+    </div>
+    <div class="code-wrapper">
+      <h2 id="Code">Code examples:</h2>
+      <p>Made a small game (link to it below), and tribute page</p>
+      <p>
+        <a href="https://github.com/palec-zatmenie/my-training-work">The game</a>
+      </p>
+    </div>
+    <div class="education-wripper">
+      <h2 id="Education">Education</h2>
+      <p>I studied at vocational school No. 30 of the river fleet, for the profession of skipper.</p>
+      <p>In IT spheree participated in the upSkill program. Also worked as a freelancer for web-studio a little bit.</p>
+    </div>
+    <div class="english-wrapper">
+      <h2 id="English">English</h2>
+      <p>While working at Red Cross, I have lots of communication with native speakers during training sessions.</p>
+    </div>
+  </div>
+  <footer class="contact-wrapper">
+    <h2 id="contact">Contact Info:</h2>
+    <p>
+      <strong><img src="icon/telephone.svg"/> Phone number:</strong>
+      <a href="tel:+375298315440">+375 (29) 831-54-40</a>
+    </p>
+    <p>
+      <strong><img src="icon/email.svg">Email:</strong>
+      <a href="mailto:palec.zatmenie@mail.ru">palec.zatmenie@mail.ru</a>
+    </p>
+    <p>
+      <strong><img src="icon/vk.svg">Vkontakte:</strong>
+      <a href="https://vk.com/karpus96">Андрей Карпусь</a>
+    </p>
+    <p>
+      <strong>
+        <img src="icon/skype.svg">Skype:</strong>
+      <a href="skype:kalambyrcheg">kalambyrcheg</a>
+    </p>
+  </footer>
+  <div class="mobile-container">
+  <div class="topnav">
+    <a href="#contact" class="active">Contacts</a>
+    <div id="myLinks">
+      <a href="#summaru">Summaru</a>
+      <a href="#skills">Skills</a>
+      <a href="#Code">Code</a>
+      <a href="#Education">Education</a>
+      <a href="#English">English</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  <script>
+      function myFunction() {
+          var x = document.getElementsByClassName("nav-menu");
+          if (x.style.display === "block") {
+              x.style.display = "none";
+          } else {
+              x.style.display = "block";
+          }
+      }
+  </script>
+</body>
+</html>
+
+
+
+
