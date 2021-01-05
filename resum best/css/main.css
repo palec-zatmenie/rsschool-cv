@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Shadows+Into+Light&display=swap');
+
+html {
+  background-image: url("../img/background.jpg");
+  background-size: 48%;
+}
+
+
+
+.nav-menu img{
+display: none;
+}
+.nav-menu {
+  background-image: url("../img/fon.jpg");
+  box-shadow: 26px 17px 41px rgba(0,0,0,1),
+  inset 26px 17px 41px rgba(255 71 0 /0.4);
+  padding: 0;
+  position: absolute;
+  top: 5px;
+  left: 15px;
+  width: 200px;
+  height: 345px;
+  border-radius: 10px;
+  perspective: 340px;
+  transform: rotateZ(10deg);
+}
+.nav-menu li a {
+  display: block;
+  width: 300px;
+  height: 0;
+  text-decoration: none;
+  color: #2a356a;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  line-height: 17px;
+}
+
+
+.nav-menu li {
+ display: inline;
+  list-style: none;
+  padding: 10px;
+  color: #2a356a;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 1.5px;
+}
+.nav-menu a:hover{
+  text-decoration: underline;
+}
+
+body {
+  margin: 0;
+
+}
+
+.centr-flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  justify-content: center;
+}
+
+.centr-flex div:not(.a-wrapper) {
+  width: 30%;
+  box-sizing: border-box;
+  margin: 25px;
+  background-image: url("../img/fon.jpg");
+  background-repeat: no-repeat;
+  background-size: 590px ;
+  padding: 20px;
+  box-shadow: 26px 17px 41px rgba(0,0,0,1),  inset 26px 17px 41px rgba(255 71 0 /0.4);
+}
+
+.zagolovog-wripper {
+  display: flex;
+  width: 50%;
+  margin: 25px 250px;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: bold;
+  color: #2a356a;
+letter-spacing: 2px;
+position: relative;
+left: 100px;
+}
+
+h1 {
+  background-color: #313129;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 0 30%;
+  border-radius: 0 0 10px 10px;
+
+}
+
+.img-wrapper {
+  width: 250px;
+  height: 334px;
+}
+
+.img-wrapper img {
+  width: 250px;
+  height: 334px;
+  border-radius: 10px 0 0 10px;
+  box-shadow: 26px 17px 41px rgba(0,0,0,1);
+}
+
+.text-wripper {
+  background-image:url("https://image.freepik.com/free-photo/old-brown-paper-sheet-abstract-background-the-surface-is-stained-smudgy_7182-1064.jpg");
+  background-size: 600px;
+  padding: 5px;
+  border-radius: 0 7px 7px 0;
+  box-shadow: 26px 17px 41px rgba(0,0,0,1), inset 26px 17px 41px rgba(255 71 0 /0.4);;
+}
+.text-wripper p {
+  line-height: 25px;
+  padding-left: 10px;
+  font-size: 23px;
+
+}
+
+.summaru-wripper {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  margin: 5px;
+  font-weight: bold;
+  color: #2a356a;
+  letter-spacing: 2px;
+  font-family: 'Redressed', cursive;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.skill-wrapper {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px; margin: 5px;
+  font-weight: bold;
+  color: #2a356a;
+  letter-spacing: 2px;
+  font-family: 'Redressed', cursive;
+  font-family: 'Shadows Into Light', cursive;
+}
+.code-wrapper {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  margin: 5px;
+  font-weight: bold;
+  color: #2a356a;
+  letter-spacing: 2px;
+  font-family: 'Redressed', cursive;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.a-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.a-wrapper a{
+  text-decoration: none;
+}
+.a-wrapper a:hover{
+  text-decoration: underline;
+}
+
+.education-wripper {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  margin: 5px;
+  font-weight: bold;
+  color: #2a356a;
+  letter-spacing: 2px;
+  font-family: 'Redressed', cursive;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.english-wrapper {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  margin: 5px;
+  font-weight: bold;
+  color: #2a356a;
+  letter-spacing: 2px;
+  font-family: 'Shadows Into Light', cursive;
+  }
+
+.contact-wrapper {
+  background-image: url("https://img2.akspic.ru/image/108787-tekstura-korichnevyj_cvet-bumaga-1920x1080.jpg");
+  line-height: 13px;
+  font-weight: bold;
+  color: #2a356a;
+  letter-spacing: 2px;
+  font-family: 'Shadows Into Light', cursive;
+  position: relative;
+}
+
+.colum{
+  text-align: center;
+  width: 100%;
+}
+.href-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.href-wrapper p{
+  padding-right: 15px;
+}
+.href-second {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  justify-content: center;
+}
+.href-second p{
+  padding-right: 15px;
+}
+
+.contact-wrapper a {
+  text-decoration: none;
+  color: #2a356a;
+}
+.contact-wrapper a:hover {
+  text-decoration: underline;
+  box-shadow: inset 26px 17px 41px rgba(255,255,255,0.4);
+  border-radius: 16%;
+  padding: 5px;
+
+}
+.contact-wrapper .href-wrapper img,
+.contact-wrapper .href-second img {
+  width: 15px;
+  height: 15px;
+  padding-right: 10px;
+}
+
+.topbutton {
+  width:50px;
+  text-align:center;
+  position:absolute;
+  bottom:50px;
+  right:50px;
+  cursor:pointer;
+  border: 1px solid black;
+}
+.contact-wrapper .icon {
+  width: 50px;
+}
+
+
+@media screen and (max-width: 680px) {
+
+  .nav-menu {
+    width: 50px;
+    height: 50px;
+    background:#e7cf9f;
+    opacity: 0.7;
+    transition: all 300ms;
+    font-size: 16px;
+    line-height: 5px;
+    border-radius: 10px;
+    overflowflow: hidden;
+
+  }
+
+  .nav-menu img {
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    top: 14px;
+
+  }
+
+  .nav-menu li {
+    display: none;
+  }
+
+  .nav-menu li:first-child {
+    margin-top: 35px;
+  }
+
+  .nav-menu:hover {
+    width: 200px;
+    height: 230px;
+  }
+
+  .nav-menu:hover img {
+    display: none;
+  }
+
+  .nav-menu:hover li {
+    display: inline-block;
+  }
+
+  .nav-menu li a {
+    color: #005AA7;
+  }
+
+  .zagolovog-wripper {
+    margin: 0;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .img-wrapper {
+    margin-bottom: 5px;
+  }
+
+  .zagolovog-wripper p {
+    line-height: normal;
+  }
+
+  .centr-flex div {
+    width: 50%;
+    margin-bottom: 5px;
+
+  }
+  .centr-flex{
+    display: flex;
+    flex-direction: column;
+  }
+  .centr-flex p{
+    line-height: 20px;
+  }
+  div.centr-flex div.summaru-wripper{
+    width: 90%;
+  }
+  div.centr-flex div.skill-wrapper{
+  width: 90%;
+}
+  div.centr-flex div.code-wrapper{
+    width: 90%;
+  }
+  div.centr-flex div.education-wripper{
+    width: 90%;
+  }
+  div.centr-flex div.english-wrapper{
+    width: 90%;
+  }
+
+  .topbutton{
+  position: fixed;
+    width: 10%;
+}
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+
+  .nav-menu {
+    width: 50px;
+    height: 50px;
+    background:#e7cf9f;
+    opacity: 0.7;
+    transition: all 300ms;
+    font-size: 16px;
+    line-height: 5px;
+    border-radius: 10px;
+    overflowflow: hidden;
+
+  }
+
+  .nav-menu img {
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    top: 10px
+
+  }
+
+  .nav-menu li {
+    display: none;
+  }
+
+  .nav-menu li:first-child {
+    margin-top: 35px;
+  }
+
+  .nav-menu:hover {
+    width: 200px;
+    height: 230px;
+  }
+
+  .nav-menu:hover img {
+    display: none;
+  }
+
+  .nav-menu:hover li {
+    display: inline-block;
+  }
+
+  .nav-menu li a {
+    color: #005AA7;
+  }
+
+  .zagolovog-wripper {
+    margin: 0;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .img-wrapper {
+    margin-bottom: 5px;
+  }
+
+  .zagolovog-wripper p {
+    line-height: normal;
+  }
+
+  .centr-flex div {
+    margin-bottom: 5px;
+
+  }
+  .centr-flex{
+    display: flex;
+    flex-direction: column;
+  }
+  .centr-flex p{
+    line-height: 25px;
+  }
+  div.centr-flex div.summaru-wripper{
+    width: 600px;
+  }
+  div.centr-flex div.skill-wrapper{
+    width: 600px;
+  }
+  div.centr-flex div.code-wrapper{
+    width: 600px;
+  }
+  div.centr-flex div.education-wripper{
+    width: 600px;
+  }
+  div.centr-flex div.english-wrapper{
+    width: 600px;
+  }
+
+  .topbutton{
+    position: fixed;
+  }
+
+
+}
+
